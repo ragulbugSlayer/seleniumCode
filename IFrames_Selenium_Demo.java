@@ -26,9 +26,6 @@ public class IFrames_Selenium_Demo {
 		driver.switchTo().parentFrame(); // parent frame command is used to switch to the parent frame of existing frame
 		driver.findElement(By.name("lname")).sendKeys("Babu");
 		
-		driver.switchTo().defaultContent(); //Default content is used to switch to main page
-		driver.findElement(By.className("card-footer-item")).click();
-		
+		driver.switchTo().defaultContent(); //Default content is used to switch to main page		
 	}
-
 }
